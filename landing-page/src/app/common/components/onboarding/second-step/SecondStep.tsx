@@ -212,8 +212,8 @@ const SecondStep = () => {
   };
 
   const handleJoin = async () => {
-      push(COMMUNITIES_URL);
-
+      // push(COMMUNITIES_URL);
+    window.location.href = COMMUNITIES_URL;
     // if (communities && communities.length > 0) {
     //   let row = 0;
     //   communities.map(async (item) => {

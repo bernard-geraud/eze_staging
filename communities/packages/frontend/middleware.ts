@@ -43,6 +43,7 @@ export async function middleware(request: NextRequest) {
         sameSite: 'strict',
         expires: expires,
         secure: false,
+        domain: '.eze.ink'
       });
 
       //   const cookie = response.cookies.get('token'); //uncomment
